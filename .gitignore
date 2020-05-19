@@ -1,6 +1,7 @@
-HELP.md
 .gradle
-build/
+/build/
+.idea
+HELP.md
 
 !**/src/main/**
 !**/src/test/**
