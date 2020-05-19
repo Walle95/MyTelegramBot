@@ -26,6 +26,7 @@ configurations {
 repositories {
 	mavenCentral()
 }
+task stage(dependsOn: ['clean', 'installDist'])
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
