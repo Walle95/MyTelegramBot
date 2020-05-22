@@ -1,6 +1,11 @@
+build
 .gradle
-/build/
 .idea
+out
+*.iml
+*.ipr
+*.iws
+.DS_Store
 HELP.md
 
 !**/src/main/**
@@ -16,10 +21,6 @@ HELP.md
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
 out/
 
 ### NetBeans ###
